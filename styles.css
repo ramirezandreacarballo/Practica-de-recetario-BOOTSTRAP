@@ -1,0 +1,16 @@
+.row {
+    border: 1px solid #db99d2;
+    background-color: bisque;
+}
+
+
+.card {
+ justify-content: center;
+ flex-wrap: wrap;
+margin: 20px auto;
+}
+
+#carouselExampleIndicators {
+    width: 100%;
+    height: 400px;
+}

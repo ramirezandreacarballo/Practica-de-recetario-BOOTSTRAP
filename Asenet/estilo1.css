@@ -1,0 +1,75 @@
+body{
+    max-width: 800px;
+    margin: auto;
+    padding: 20 px;
+    font-family: 'Arial', sans-serif;
+    background-color: #ecf4f1;
+}
+
+/* Título principal */
+h1{
+    color: #2e7d32;
+    text-align: center;
+}
+
+/* Modificara todos lo h2 */
+h2{
+    color: #558b2f;
+    margin-top: 20px;
+}
+
+/* Texto */
+p{
+    line-height: 1.6; /* Para mejorar la legibilidad */
+    font-family: 'Arial', sans-serif; /* Fuente legible */
+    font-size: large;
+}
+
+/* Mensaje */
+span{
+    display: block; /*Para que ocupe toda la línea*/
+    text-align: center;  /* Para centrar el texto */
+    font-weight: bold; /* Para resaltar el texto */
+    color: #9d5e00; /* Color naranja para destacar */
+    margin: 10px 0; /* Espacio arriba y abajo */
+    font-size: 20px; /* Tamaño de fuente */
+}
+
+/* Modificar las imagenes*/
+img{
+    display: block; /* Para que ocupe toda la línea */
+    margin: 20px auto; /* Centrar la imagen */
+    max-width: 100%; /* Para que la imagen no se salga del contenedor */ 
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+/* Modifiar listas */
+ul, ol{
+    background-color: rgb(184, 219, 205);
+    padding: 30px; /* Espacio dentro del contenedor */
+    border-radius: 10px; 
+    line-height: 1.6; /* Para mejorar la legibilidad */
+}
+
+/* Espacio entre elementos */
+li{ /* Para modificar los elementos de la lista */
+    margin-bottom: 10px; /* Espacio entre elementos de la lista */
+
+}/* La linea */
+hr{
+    margin: 30px 0;
+}
+
+/* Link bonito tipo botón */
+a{
+    display: block; /* Para que ocupe toda la línea */
+    text-align: center; /* Para centrar el texto */
+    background-color: #99c4c7;
+    color: white; /* Color del texto */
+    padding: 15px; /* Espacio dentro del botón */
+    border-radius: 10px;
+    margin: 20px 0; /* Espacio arriba y abajo. Ejemplo: margin: Arriba/Abajo o Izq/Der */
+}
+a:hover{ /* Para cambiar el estilo al pasar el mouse por encima */
+    background-color: #45a049; /* Cambia el color al pasar el mouse */
+}
